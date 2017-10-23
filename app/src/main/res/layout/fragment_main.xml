@@ -4,9 +4,11 @@
 
     <!--Content-->
     <LinearLayout
+        android:gravity="center_horizontal"
+        android:padding="@dimen/padding"
         android:layout_centerInParent="true"
         android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/content"
         android:layout_height="wrap_content">
 
         <!--Logo-->
@@ -17,6 +19,9 @@
 
         <!--App Name-->
         <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimaryDark"
             android:textStyle="bold"
             android:textSize="@dimen/h1"
             android:text="@string/app_name"
@@ -24,12 +29,64 @@
             android:layout_height="wrap_content" />
 
         <!--User-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--Icon-->
+            <ImageView
+                android:src="@mipmap/ic_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--TextField-->
+            <EditText
+                android:inputType="text"
+                android:hint="@string/user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
 
         <!--Password-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <!--Logni Button-->
+            <!--Icon-->
+            <ImageView
+                android:src="@mipmap/ic_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--TextField-->
+            <EditText
+                android:inputType="text"
+                android:hint="@string/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!--Login Button-->
+        <Button
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark"
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <!--New Register-->
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:text="@string/new_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
 
     </LinearLayout>
