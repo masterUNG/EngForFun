@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="logo">190dp</dimen>
+    <dimen name="logo">150dp</dimen>
     <dimen name="h1">24sp</dimen>
     <dimen name="padding">16dp</dimen>
     <dimen name="content">250dp</dimen>

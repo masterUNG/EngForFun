@@ -14,10 +14,10 @@
             android:layout_height="match_parent">
 
         <!--Logo-->
-        <ImageView
-            android:src="@drawable/logo2"
-            android:layout_width="@dimen/logo"
-            android:layout_height="@dimen/logo" />
+            <ImageView
+                android:layout_width="213dp"
+                android:layout_height="@dimen/logo"
+                android:src="@drawable/logo2" />
 
         <!--App Name-->
         <TextView
