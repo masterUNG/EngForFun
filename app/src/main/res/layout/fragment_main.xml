@@ -4,6 +4,7 @@
 
     <!--Content-->
     <LinearLayout
+        android:background="#c8ffffff"
         android:gravity="center_horizontal"
         android:padding="@dimen/padding"
         android:layout_centerInParent="true"
@@ -63,7 +64,7 @@
 
             <!--TextField-->
             <EditText
-                android:inputType="text"
+                android:inputType="textPassword"
                 android:hint="@string/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -80,6 +81,8 @@
 
         <!--New Register-->
         <TextView
+            android:id="@+id/txtRegister"
+            android:clickable="true"
             android:textColor="@color/colorAccent"
             android:textSize="18sp"
             android:layout_marginTop="16dp"
