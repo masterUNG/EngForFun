@@ -3,17 +3,15 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--Toolbar-->
-
-
     <!--Content-->
         <LinearLayout
-        android:gravity="center_horizontal"
-        android:padding="@dimen/padding"
-        android:layout_centerInParent="true"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+            android:background="#c8ffffff"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
         <!--Logo-->
         <ImageView
